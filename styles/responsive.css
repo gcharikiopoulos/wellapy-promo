@@ -1,0 +1,43 @@
+/* Responsive styles for different screen sizes */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .left-side,
+    .right-side {
+        flex: none;
+    }
+
+    .left-side {
+        display: none;
+    }
+
+    .cta-button {
+        font-size: 1.2rem;
+    }
+
+    .professionals-grid,
+    .promo-grid {
+        grid-template-columns: 1fr; /* 1 column layout for smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .left-side {
+        display: none;
+    }
+
+    .right-side {
+        padding: 60px 5px 20px 5px;
+    }
+
+    .tagline {
+        font-size: 1rem;
+        text-wrap: balance;
+    }
+
+    .cta-button {
+        font-size: 1rem;
+    }
+}
