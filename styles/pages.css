@@ -60,7 +60,7 @@ header img {
 .professionals-grid {
     text-align: center;
     display: grid;
-    grid-template-columns: repeat(2, auto); /* 3 equal columns */
+    grid-template-columns: repeat(3, auto); /* 3 equal columns */
     gap: 16px; /* Space between the boxes */
     justify-content: center; /* Centers the columns horizontally */
     padding: 16px;
